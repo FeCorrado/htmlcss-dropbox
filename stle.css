@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vh;
+    margin: 0;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+header:after{
+        content: "";
+        display: table;
+        clear: both;
+}
+
+ul{
+    padding-top: 5px;
+}
+
+.clean{
+    list-style: none;
+    display: inline-block;
+}
+
+header a{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-sx{
+    float: left;
+}
+
+.nav-dx{
+    float: right;
+}
+
+.jumbo{
+    width: 100vh;
+    background-color: rgb(174, 209, 234);
+    height: 500px;
+}
+
+.jumbo-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+}
+
+.titolo{
+    font-size: 42px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.jumbo-sotto{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.jumbo-sx{
+    width: 290px;
+    
+}
+
+.jumbo p{
+    margin-bottom: 30px;
+}
+
+.jumbo-sx a{
+    color: white;
+    background-color: rgb(1, 99, 255);
+    padding: 7px;
+    margin-top: 5px;
+}
+
+.jumbo-sx h6{
+    margin-top: 15px;
+}
+
+.arrow{
+    font-size: 30px;
+}
