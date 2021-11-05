@@ -108,3 +108,34 @@ a{
 .jumbo-dx img{
     width: 650px;
 }
+
+.container-centrato{
+    margin-top: 130px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.piani h1{
+    font-size: 30px;
+}
+
+.piani input{
+    margin-top: 50px;
+}
+
+.in-dx{
+    margin-left: 10px;
+}
+
+.colonne{
+    width: 100%;
+}
+
+.colonna{
+    display: inline-table;
+    width: calc(33%-30px);
+    height: 200px;
+    border-style: solid;
+    border-width: 3px;
+
+}
