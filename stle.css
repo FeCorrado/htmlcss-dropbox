@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .vw{
@@ -148,9 +148,8 @@ a{
 
 .colonna{
     display: inline-block;
-    width: 33%;
-    width: 33%;
-    height: 200px;
+    width: 30%;
+    height: 750px;
     border-style: solid;
     border-width: 1px;
     color: grey;
@@ -174,6 +173,128 @@ a{
 .cn{
     float: left;
     display: inline-table;
-    margin-right: 0.5%;
-    margin-left: 0.5%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
+
+.singolo::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    color: #000;
+    margin-right: 10px;
+}
+
+.cen{
+    text-align: center;
+}
+
+.in-colonna{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.in-colonna h6{
+    margin-top: 8px;
+}
+
+.cartella::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f07b";
+    color: #000;
+    margin-right: 10px;
+}
+
+.penna::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f303";
+    color: #000;
+    margin-right: 10px;
+}
+
+.in-colonna .singolo{
+    margin-top: 40px;
+}
+
+.spaz-top{
+    margin-top: 20px;
+}
+
+.small1{
+    font-size: 13px;
+}
+
+.prova-gratis{
+    color: white;
+    background-color: rgb(1, 99, 255);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.piani input{
+    margin-bottom: 35px;
+}
+
+.linea-piccola{
+    width: 45px;
+    margin-top: 20px;
+}
+
+.in-colonna h5{
+    color: black;
+    margin-top: 25px;
+}
+
+.box-check div::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    color: rgb(1, 99, 255);
+    margin-right: 10px;
+    
+}
+
+.check{
+    margin-top: 15px;
+}
+
+.team::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f1ad";
+    color: #000;
+}
+
+.molti::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f234";
+    color: #000;
+    margin-right: 10px;
+}
+
+.smile::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f118";
+    color: #000;
+    margin-right: 10px;
+}
+
+
+/*
+.item::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f234";
+    color: #000;
+}
+*/
