@@ -117,7 +117,7 @@ a{
 
 .arrow{
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 8px;
 }
 
 .jumbo-dx{
@@ -354,11 +354,133 @@ a{
     margin-left: 30px;
     margin-bottom: 30px;
 }
+
+.arrow::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f063";
+    color: #000;
+}
+
+.container-partner{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.container-partner:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-partner img{
+    float: left;
+    width: 400px;
+}
+
+.partner-dx{
+    float: right;
+    width: 420px;
+    margin-top: 50px;
+}
+
+.partner-bottone{
+    width: 144px;
+    border-style: solid;
+    border-width: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.partner-dx .small1{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.partner-dx p{
+    margin-top: 20px;
+}
+
+.operazioni-up:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.operazioni-dowm:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.operazione{
+    width: 30%;
+}
+
+.operazione img{
+    width: 260px;
+}
+
+.operazione p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.due{
+    margin-left: 44px;
+}
+
+.operazioni-down{
+    margin-top: 60px;
+}
+
+.box-operazioni{
+    margin-top: 50px;
+}
+
+.operazione div{
+    margin-top: 30px;
+}
+
+.container-operazioni{
+    margin-top: 100px;
+}
+
+.operazione a{
+    text-decoration: underline;
+    color: black;
+}
+
+.più{
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.più-box{
+    padding-top: 570px;
+}
+
+.più-box a{
+    text-decoration: underline;
+    color: blue;
+    font-size: 13px;
+}
+
+
 /*
 .item::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f234";
     color: #000;
+}
+*/
+
+/* .enterprise-box:after{
+    content: "";
+    display: table;
+    clear: both;
 }
 */
