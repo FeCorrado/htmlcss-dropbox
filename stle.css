@@ -493,6 +493,7 @@ footer{
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 150px;
+    margin-top: 50px;
 }
 
 footer:after{
@@ -548,7 +549,7 @@ footer li{
     color: white;
     margin-left: 10px;
 }
-/*usare position absolute e relative per navigare dentro un container*/
+
 
 /*
 .item::before {
