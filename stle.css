@@ -486,6 +486,68 @@ a{
     font-size: 20px;
 }
 
+footer{
+    position: relative;
+    background-color: black;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 150px;
+}
+
+footer:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.full-centro{
+    height: 300px;
+    background-color: tomato;      /*completare*/
+}
+
+footer ul{
+    margin-top: 10px;        
+}
+
+footer li{
+    margin-top: 5px;
+}
+
+.li-1{
+    margin-left: 10px;
+}
+
+.li-up{
+    padding-top: 100px;
+    float: left;
+}
+
+.nn1{
+    margin-left: 100px;
+}
+
+.linea-footer{
+    position: relative;
+    width: 150px;
+    padding-top: 350px;
+}
+
+.lingua::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f7a2";
+    color: white;
+    margin-right: 10px;
+}
+
+.lingua::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
+    color: white;
+    margin-left: 10px;
+}
 /*usare position absolute e relative per navigare dentro un container*/
 
 /*
