@@ -550,6 +550,30 @@ footer li{
     margin-left: 10px;
 }
 
+.bott-sx{
+    width: 30%;
+    height: 100px;
+    float: left;
+    background-color: turquoise;
+}
+
+.bott-cn{
+    width: 40%;
+    height: 100px;
+    float: left;
+    background-color: violet;
+}
+
+.bott-dx{
+    width: 30%;
+    height: 100px;
+    float: left;
+    background-color: turquoise;
+}
+
+.container-logo{
+    width: 50%;
+}
 
 /*
 .item::before {
