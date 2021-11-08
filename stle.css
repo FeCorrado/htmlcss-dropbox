@@ -502,10 +502,6 @@ footer:after{
     clear: both;
 }
 
-.full-centro{
-    height: 300px;
-    background-color: tomato;      /*completare*/
-}
 
 footer ul{
     margin-top: 10px;        
@@ -551,28 +547,195 @@ footer li{
 }
 
 .bott-sx{
-    width: 30%;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     float: left;
-    background-color: turquoise;
 }
 
 .bott-cn{
-    width: 40%;
-    height: 100px;
+    width: 40vw;
+    height: 500px;
     float: left;
-    background-color: violet;
+    background-color: rgb(205, 205, 205);
 }
 
 .bott-dx{
-    width: 30%;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     float: left;
-    background-color: turquoise;
 }
 
 .container-logo{
-    width: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+
+
+.bott-sx-up{
+    float: left;
+}
+
+.bott-sx-dw{
+    float: left;
+}
+
+.uno-bt{
+    background-color: rgb(202, 230, 161);
+}
+
+.uno-bt img{
+    width: 170px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.due-bt{
+    background-color: rgb(65, 122, 213);  
+}
+
+.due-bt img{
+    width: 170px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tre-bt{
+    background-color: rgb(94, 17, 17);
+}
+
+.tre-bt img{
+    width: 170px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quattro-bt{
+    background-color: red;
+}
+
+.quattro-bt img{
+    width: 170px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bott-dx-up{
+    float: left;
+}
+
+.bott-dx-dw{
+    float: left;
+}
+
+.cinque-bt{
+    background-color: rgb(255, 45, 45);
+}
+
+.cinque-bt img{
+    width: 170px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sei-bt{
+    background-color: blue;
+}
+
+.sei-bt img{
+    width: 170px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sette-bt{
+    background-color: rgb(128, 175, 211);
+}
+
+.sette-bt img{
+    width: 170px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.otto-bt{
+    background-color: rgb(235, 235, 4);
+}
+
+.otto-bt img{
+    width: 170px;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bott-cn img{
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 160px;
+}
+
+.bott-cn hr{
+    margin-top: 35px;
+    margin-left: 60px;
+    width: 80px;
+}
+
+.bott-cn .small1{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.bott-cn .small2{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.container-porta{
+    width: 100vw;
+    height: 400px;
+    margin-top: 500px;
+    background-color: rgb(25, 160, 184);
+}
+
+.porta-drop{
+    padding-top: 150px;
+    margin-left: 450px;
+    float: left;
+    width: 460px;
+    color: rgb(108, 23, 23);
+}
+
+.bottone-bott{
+    margin-top: 170px;
+    margin-right: 450px;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right;
+}
+
+.full-centro {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.vwv{
+    width: 1746px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*
