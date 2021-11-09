@@ -554,7 +554,7 @@ footer li{
 }
 
 .bott-cn{
-    width: calc(99.1vw - 1000px);
+    width: calc(100% - 1000px);
     height: 500px;
     float: left;
     background-color: rgb(205, 205, 205);
