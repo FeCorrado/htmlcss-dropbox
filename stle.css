@@ -737,6 +737,9 @@ footer li{
     width: 100%;
 }
 
+.invert{
+    filter: invert(100%);
+}
 /*
 .item::before {
     font-family: "Font Awesome 5 Free";
